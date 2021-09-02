@@ -1,0 +1,70 @@
+body{
+    background-image: url("image.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background:rgb(41, 127, 135, 0.7);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: 0;
+    background: #FFF7AE;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #DF2E2E;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #F6D167;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: #DF2E2E;
+    font-size: 12px;
+}
+
+a{
+    color: #11324D;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FEFFE2;
+}
+
+.registration-form{
+    display: none;
+}
